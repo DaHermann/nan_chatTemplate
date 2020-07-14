@@ -1167,8 +1167,13 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                     <i class="feather icon-search"></i>
                   </div>
                 </fieldset>
+              </div>
+              <div
+                id="users-list"
+                class="chat-user-list list-group position-relative"
+              >
                 <!-- FAVORITES -->
-                <fieldset
+                <!-- <fieldset
                   class="form-group position-relative has-icon-left mx-1 my-0 w-90 mt-3"
                 >
                   <h4 class="primary p-1 mb-0">Favorites</h4>
@@ -1232,13 +1237,56 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                     />
                     <span class="avatar-status-busy"></span>
                   </div>
-                </fieldset>
+                </fieldset> -->
                 <!-- END FAVORITE -->
-              </div>
-              <div
-                id="users-list"
-                class="chat-user-list list-group position-relative"
-              >
+                <h3 class="primary p-1 mb-0">Favorites</h3>
+                <ul>
+                  <ol>
+                    <div class="pr-1">
+                      <div class="avatar mr-1 avatar-lg">
+                        <div class="avatar-content">
+                          <i class="avatar-icon feather icon-plus"></i>
+                        </div>
+                      </div>
+                      <div class="avatar mr-1 avatar-lg">
+                        <img
+                          src="./app-assets/images/portrait/small/avatar-s-20.jpg"
+                        />
+                        <span class="avatar-status-online"></span>
+                      </div>
+                      <div class="avatar mr-1 avatar-lg">
+                        <img
+                          src="./app-assets/images/portrait/small/avatar-s-20.jpg"
+                        />
+                        <span class="avatar-status-offline"></span>
+                      </div>
+                      <div class="avatar mr-1 avatar-lg">
+                        <img
+                          src="./app-assets/images/portrait/small/avatar-s-20.jpg"
+                        />
+                        <span class="avatar-status-busy"></span>
+                      </div>
+                      <div class="avatar mr-1 avatar-lg">
+                        <img
+                          src="./app-assets/images/portrait/small/avatar-s-20.jpg"
+                        />
+                        <span class="avatar-status-busy"></span>
+                      </div>
+                      <div class="avatar mr-1 avatar-lg">
+                        <img
+                          src="./app-assets/images/portrait/small/avatar-s-20.jpg"
+                        />
+                        <span class="avatar-status-busy"></span>
+                      </div>
+                      <div class="avatar mr-1 avatar-lg">
+                        <img
+                          src="./app-assets/images/portrait/small/avatar-s-20.jpg"
+                        />
+                        <span class="avatar-status-busy"></span>
+                      </div>
+                    </div>
+                  </ol>
+                </ul>
                 <h3 class="primary p-1 mb-0">Chats</h3>
                 <ul class="chat-users-list-wrapper media-list">
                   <li>
@@ -1814,8 +1862,7 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                         class="d-flex btn btn-primary send"
                         onclick="enter_chat();"
                       >
-                        <i class="fa fa-paper-plane-o d-lg-none"></i>
-                        <span class="d-none d-lg-block">Send</span>
+                        <i class="fa fa-paper-plane-o"></i>
                       </button>
                     </form>
                   </div>
