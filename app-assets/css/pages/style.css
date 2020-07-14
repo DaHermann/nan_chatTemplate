@@ -59,7 +59,7 @@
 }
 
 
-/* .dropdown-toggle::after {
+.noAffter.dropdown-toggle::after {
     border: '' !important;
     font-family: '';
     content: '' !important;
@@ -70,4 +70,13 @@
     padding: '' !important;
     margin: '' !important;
     vertical-align: '' !important;
-} */
+}
+
+
+.end {
+    position: absolute;
+    right: .23rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
