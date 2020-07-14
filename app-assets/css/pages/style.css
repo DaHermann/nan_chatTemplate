@@ -1,62 +1,11 @@
-.user-avatar-group {
-     display: flex; 
-     box-sizing: border-box;
-}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
-user agent stylesheet
-div {
-    display: block;
+.user-avatar-group {
+        display: flex; 
+        box-sizing: border-box;
 }
-.user-card-s2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: .5rem;
-}
-.simplebar-content-wrapper, .simplebar-scroll-content {
-    direction: inherit;
-    box-sizing: border-box !important;
-    position: relative;
-    display: block;
-    height: 100%;
-    width: auto;
-    visibility: visible;
-    max-width: 100%;
-    max-height: 100%;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    overflow: hidden scroll;
-}
-.simplebar-offset {
-    direction: inherit !important;
-    box-sizing: inherit !important;
-    resize: none !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
-    -webkit-overflow-scrolling: touch;
-}
-.simplebar-mask {
-    direction: inherit;
-    position: absolute;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: auto !important;
-    height: auto !important;
-    z-index: 0;
-}
-
 
 .user-avatar-group .user-avatar {
     border: 2px solid #fff;
@@ -72,70 +21,53 @@ div {
 }
 .user-avatar, [class^="user-avatar"]:not([class*="-group"]) {
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
     background: #798bff;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.06em;
     flex-shrink: 0;
     position: relative;
 }
-*, *::before, *::after {
-    box-sizing: border-box;
+
+
+.user-avatar-group .user-avatar:not(:first-child) {
+    margin-left: -9%;
 }
-user agent stylesheet
-div {
-    display: block;
+
+.user-avatar-group .user-avatar {
+    border: 2px solid #fff;
 }
-.user-card-s2 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: .5rem;
+.user-card-s2 .user-avatar {
+    margin: 0 auto;
 }
-.simplebar-content-wrapper, .simplebar-scroll-content {
-    direction: inherit;
-    box-sizing: border-box !important;
-    position: relative;
-    display: block;
-    height: 100%;
-    width: auto;
-    visibility: visible;
-    max-width: 100%;
-    max-height: 100%;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    overflow: hidden scroll;
+.user-avatar[class*="-light"] {
+    color: #526484;
 }
-.simplebar-offset {
-    direction: inherit !important;
-    box-sizing: inherit !important;
-    resize: none !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
-    -webkit-overflow-scrolling: touch;
+.user-avatar-md, .user-avatar.md {
+    height: 60px;
+    width: 60px;
+    font-size: 18px;
 }
-.simplebar-mask {
-    direction: inherit;
-    position: absolute;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: auto !important;
-    height: auto !important;
-    z-index: 0;
+.bg-light {
+    background-color: #e5e9f2 !important;
 }
+
+
+/* .dropdown-toggle::after {
+    border: '' !important;
+    font-family: '';
+    content: '' !important;
+    position: '' !important;
+    top: '' !important;
+    right: '' !important;
+    left: '' !important;
+    padding: '' !important;
+    margin: '' !important;
+    vertical-align: '' !important;
+} */
