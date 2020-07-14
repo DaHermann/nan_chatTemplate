@@ -1,7 +1,11 @@
-
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
+/**
+   User avatar 
+*/
+
 .user-avatar-group {
         display: flex; 
         box-sizing: border-box;
@@ -10,10 +14,6 @@
 .user-avatar-group .user-avatar {
     border: 2px solid #fff;
 }
-.user-card-s2 .user-avatar {
-    margin: 0 auto;
-}
-
 .user-avatar-md, .user-avatar.md {
     height: 60px;
     width: 60px;
@@ -27,7 +27,6 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    background: #798bff;
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.06em;
@@ -35,11 +34,18 @@
     position: relative;
 }
 
-
-.user-avatar-group .user-avatar:not(:first-child) {
+.user-avatar-group .user-avatar:not(:first-child){
     margin-left: -9%;
 }
+.user-avatar-two .avatar-lg:not(:first-child){
+    margin-left: -70%;
+    margin-bottom: -20%;
+}
 
+.user-avatar-two .avatar-lg:nth-child(1){
+    margin-right: -60%;
+    margin-top: -20%;
+}
 .user-avatar-group .user-avatar {
     border: 2px solid #fff;
 }
@@ -71,7 +77,6 @@
     margin: '' !important;
     vertical-align: '' !important;
 }
-
 
 .end {
     position: absolute;
