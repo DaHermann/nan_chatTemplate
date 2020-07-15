@@ -11,9 +11,13 @@
         box-sizing: border-box;
 }
 
-.user-avatar-group .user-avatar {
+/* .user-avatar-group .user-avatar {
+    border: 2px solid #fff;
+} */
+.user-avatar-group .user-avatar, .user-avatar-group .user-avatar-md ,.user-avatar-group .user-avatar-md .avatar img{
     border: 2px solid #fff;
 }
+
 .user-avatar-md, .user-avatar.md {
     height: 60px;
     width: 60px;
@@ -46,9 +50,7 @@
     margin-right: -60%;
     margin-top: -20%;
 }
-.user-avatar-group .user-avatar, .user-avatar-group .user-avatar-md ,.user-avatar-group .user-avatar-md .avatar img{
-    border: 2px solid #fff;
-}
+
 .user-card-s2 .user-avatar {
     margin: 0 auto;
 }
@@ -84,4 +86,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+
+/* icon  */
+
+.fa-1x {
+    font-size: 18px;
 }
