@@ -635,7 +635,10 @@
                                             </div>
                                             <h6 class="mb-0">Felecia Rower</h6>
                                         </div>
-                                        <span class="favorite"><i class="feather icon-star font-medium-5"></i></span>
+                                        <span class="favorite">
+                                            <i class="feather icon-sliders font-medium-5 mr-1"></i>
+                                            <i class="feather icon-star font-medium-5 mr-1"></i>
+                                        </span>
                                     </header>
                                 </div>
                                 <div class="user-chats">
@@ -782,33 +785,49 @@
                         </section>
                         <!-- User Chat profile right area -->
                         <div class="user-profile-sidebar">
-                            <header class="user-profile-header p-5 d-flex justify-content-center">
+                            <header class="user-profile-header p-5">
                                 <div class="user-avatar-group d-flex justify-content-center ">
-                                    <div class="user-avatar md mr-1">
+                                    <!--Option button-->
+                                    <div class="end float-right" style="margin-top: -10%;">
+                                        <button type="button" class="btn btn-icon mr-1 mb-1 waves-effect waves-light" data-toggle="dropdown" aria-expanded="false">
+                                            <i class="fa fa-ellipsis-h"></i>
+                                          </button>
+                                          <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">More Option</a>
+                                            <a class="dropdown-item" href="#">Another Option</a>
+                                          </div>
+                                    </div>
+
+                                    <div class="user-avatar-md mr-1">
                                         <div class="avatar">
                                             <img src="app-assets/images/portrait/small/avatar-s-1.jpg" alt="user_avatar" height="70" width="70">
-                                            <span class="avatar-status-online avatar-status-lg"></span>
                                         </div>
                                     </div>
-                                    <div class="user-avatar md bg-purple mr-1">
+                                    <div class="user-avatar-md bg-purple mr-1">
                                         <div class="avatar">
                                             <img src="app-assets/images/portrait/small/avatar-s-2.jpg" alt="user_avatar" height="70" width="70">
-                                            <span class="avatar-status-online avatar-status-lg"></span>
                                         </div>
                                     </div>
-                                    <div class="user-avatar md bg-pink mr-1">
+                                    <div class="user-avatar-md bg-pink mr-1">
                                         <div class="avatar">
                                             <img src="app-assets/images/portrait/small/avatar-s-3.jpg" alt="user_avatar" height="70" width="70">
-                                            <span class="avatar-status-busy avatar-status-lg"></span>
                                         </div>
                                     </div>
-                                    <div class="user-avatar md bg-light mr-1">
+                                    <div class="user-avatar-md bg-light mr-1">
                                         <span>+2</span>
                                         <a href="#" class="edit edit-upload">
                                             <em class="icon ni ni-img"></em>
                                         </a>
                                     </div>
                                 </div>
+
+                                <!--div class="mt-5">
+                                    <h4 class="chat-user-name">NaN Project</h4>
+                                    <div class="user-info">
+                                        <span class="sub-text">Description du group</span>
+                                    </div>
+                                </div-->
+                                            
                             </header>
 
                             <div class="user-profile-sidebar-area">

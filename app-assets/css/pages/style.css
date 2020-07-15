@@ -34,8 +34,8 @@
     position: relative;
 }
 
-.user-avatar-group .user-avatar:not(:first-child){
-    margin-left: -9%;
+.user-avatar-group .user-avatar-md:not(:first-child){
+    margin-left: -8%;
 }
 .user-avatar-two .avatar-lg:not(:first-child){
     margin-left: -70%;
@@ -46,7 +46,7 @@
     margin-right: -60%;
     margin-top: -20%;
 }
-.user-avatar-group .user-avatar {
+.user-avatar-group .user-avatar, .user-avatar-group .user-avatar-md ,.user-avatar-group .user-avatar-md .avatar img{
     border: 2px solid #fff;
 }
 .user-card-s2 .user-avatar {
