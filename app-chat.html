@@ -86,6 +86,13 @@
       type="text/css"
       href="app-assets/css/pages/app-chat.css"
     />
+
+    <!--My style-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="app-assets/css/pages/style.css"
+    />
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -1125,7 +1132,7 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                       aria-labelledby="dropdownMenuButton"
                     >
                       <a class="dropdown-item" href="#">Contact</a>
-                      <a class="dropdown-item" href="#">Channel</a>
+                      <a class="dropdown-item" href="channels.html">Channel</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Help</a>
                     </div>
@@ -1168,76 +1175,8 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                   </div>
                 </fieldset>
               </div>
-              <div
-                id="users-list"
-                class="chat-user-list list-group position-relative"
-              >
-                <!-- FAVORITES -->
-                <!-- <fieldset
-                  class="form-group position-relative has-icon-left mx-1 my-0 w-90 mt-3"
-                >
-                  <h4 class="primary p-1 mb-0">Favorites</h4>
 
-                  <div class="avatar mr-1 avatar-lg">
-                    <div class="avatar-content">
-                      <i class="avatar-icon feather icon-plus"></i>
-                    </div>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-online"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-online"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-online"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-offline"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-offline"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-offline"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-offline"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-offline"></span>
-                  </div>
-                  <div class="avatar mr-1 avatar-lg">
-                    <img
-                      src="./app-assets/images/portrait/small/avatar-s-20.jpg"
-                    />
-                    <span class="avatar-status-busy"></span>
-                  </div>
-                </fieldset> -->
+              <div id="users-list"class="chat-user-list list-group position-relative">
                 <!-- END FAVORITE -->
                 <h3 class="primary p-1 mb-0">Favorites</h3>
                 <ul>
@@ -1896,67 +1835,39 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
 
                 <div class="user-profile-sidebar-area">
                   <div class="row">
-                    <div class="col-sm-12">
-                      <div
-                        id="accordionWrapa50"
-                        role="tablist"
-                        aria-multiselectable="true"
-                      >
-                        <div class="collapse-icon accordion-icon-rotate">
-                          <div
-                            class="accordion"
-                            id="accordionExample0"
-                            data-toggle-hover="true"
-                          >
-                            <div
-                              class="collapse-border-item collapse-header collapse-bordered bg-white"
-                            >
-                              <div
-                                class="card-header collapsed"
-                                id="option"
-                                data-toggle="collapse"
-                                role="button"
-                                data-target="#collapseOP"
-                                aria-expanded="false"
-                                aria-controls="collapse200"
-                              >
-                                <span class="lead collapse-title">
-                                  OPTIONS
-                                </span>
-                              </div>
-                              <div
-                                id="collapseOP"
-                                class="collapse show"
-                                aria-labelledby="option"
-                                data-parent="#accordionExample0"
-                                style=""
-                              >
-                                <div class="card-body">
-                                  <ul class="">
-                                    <li class="d-flex mt-2">
-                                      <a class="float-left mb-0" href="#">
-                                        <i
-                                          class="fa fa-pencil-square-o fa-2x icon-edit-2 mr-1"
-                                        ></i>
-                                        <span>Nickname</span>
-                                      </a>
-                                    </li>
-                                    <li class="d-flex mt-2">
-                                      <a class="float-left mb-0" href="#">
-                                        <i class="fa fa-search fa-2x mr-1"></i>
-                                        <span>Search</span>
-                                      </a>
-                                    </li>
-                                    <li class="d-flex mt-2">
-                                      <a class="float-left mb-0" href="#">
-                                        <i class="fa fa-circle fa-2x mr-1"></i>
-                                        <span>Change theme</span>
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
+                      <div class="col-sm-12">
+                          <div id="accordionWrapa50" role="tablist" aria-multiselectable="true">
+                              <div class="collapse-icon accordion-icon-rotate">
+                                  
+                                  <div class="accordion" id="accordionExample0" data-toggle-hover="true">
+                                      <div class="collapse-border-item collapse-header collapse-bordered bg-white">
+                                          <div class="card-header collapsed" id="option" data-toggle="collapse" role="button" data-target="#collapseOP" aria-expanded="false" aria-controls="collapse200">
+                                              <span class="lead collapse-title">
+                                                  OPTIONS
+                                              </span>
+                                          </div>
+                                          <div id="collapseOP" class="collapse show" aria-labelledby="option" data-parent="#accordionExample0" style="">
+                                            <div class="card-body">
+                                              <ul class="">
+                                                  <li class="d-flex mt-2">
+                                                      <a class="float-left mb-0" href="#">
+                                                          <i class="fa fa-pencil-square-o fa-1x icon-edit-2 mr-1"></i>
+                                                          <span>Nickname</span>
+                                                      </a>
+                                                  </li>
+                                                  <li class="d-flex mt-2">
+                                                      <a class="float-left mb-0" href="#">
+                                                          <i class="fa fa-search fa-1x mr-1"></i>
+                                                          <span>Search</span>
+                                                      </a>
+                                                  </li>
+                                                  <li class=" d-flex mt-2">
+                                                      <a class="float-left mb-0" href="#">
+                                                          <i class="fa fa-circle fa-1x mr-1"></i>
+                                                          <span>Change theme</span>
+                                                      </a>
+                                                  </li>
+                                              </ul>
 
                             <div
                               class="collapse-border-item collapse-header bg-white"
@@ -2032,6 +1943,7 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                               </div>
                             </div>
 
+<<<<<<< HEAD
                             <div
                               class="collapse-header collapse-border-item bg-white"
                             >
@@ -2067,6 +1979,46 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                                             class="img-fluid mb-1 rounded-sm"
                                             alt="avtar img holder"
                                           />
+=======
+                                      <div class="collapse-border-item collapse-header bg-white">
+                                          <div class="card-header collapsed" id="setting" data-toggle="collapse" role="button" data-target="#collapseS" aria-expanded="false" aria-controls="collapse210">
+                                              <span class="lead collapse-title">
+                                                  SETTINGS
+                                              </span>
+                                          </div>
+                                          <div id="collapseS" class="collapse show" aria-labelledby="setting" data-parent="#accordionExample0" style="">
+                                            <div class="card-body">
+                                              <ul class="">
+                                                  <li class="d-flex mt-2">
+                                                      <a class="float-left mb-0">
+                                                          <i class="fa fa-toggle-on fa-1x icon-edit-2 mr-1"></i> <!--fa-toggle-off-->
+                                                          <span>Notifications</span>
+                                                          <p>
+                                                              <small>Lorem ipsum dolor sit amet...</small>
+                                                          </p>
+                                                      </a>
+                                                  </li>
+                                                  <li class="d-flex mt-2">
+                                                      <a class="float-left mb-0" >
+                                                          <i class="feather icon-bell-off fa-1x mr-1"></i> <!--icon-bell-->
+                                                          <span>Ignore message</span>
+                                                          <p>
+                                                              <small>Lorem ipsum dolor sit amet, consectetur ...</small>
+                                                          </p>
+                                                      </a>
+                                                  </li>
+                                                  <li class=" d-flex mt-2">
+                                                      <a class="float-left mb-0" >
+                                                          <i class="fa fa-exclamation-triangle fa-1x mr-1"></i>
+                                                          <span>Something wrong</span>
+                                                          <p>
+                                                              <small>Lorem ipsum dolor sit amet, consectetur adipisicing ...</small>
+                                                          </p>
+                                                      </a>
+                                                  </li>
+                                              </ul>
+                                            </div>
+>>>>>>> c0a355950376d0358f2c69383d0e5b3c33780475
                                         </div>
                                         <div
                                           class="col-md-4 col-6 user-latest-img"
