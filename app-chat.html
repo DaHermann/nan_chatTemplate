@@ -1538,7 +1538,35 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                       <span class="">
                         <i class="feather icon-phone font-medium-5 mr-1"></i>
                         <i class="feather icon-video font-medium-5 mr-1"></i>
-                        <i class="feather icon-sliders font-medium-5 mr-1"></i>
+
+                        <span class="dropdown">
+                          <a href="#" class=" noAffter dropdown-toggle btn btn-icon btn-trigger text-primary" data-toggle="dropdown" aria-expanded="false">
+                              <em class="feather icon-sliders font-medium-5 "></em>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right" style="">
+                            <ul class="link-list-opt no-bdr">
+                              <li>
+                                  <a class="dropdown-item" href="#">
+                                      <em class="icon ni ni-archive"></em>
+                                      <span>Make as Archive</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="#">
+                                      <em class="icon ni ni-cross-c"></em>
+                                      <span>Remove Conversion</span>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a class="dropdown-item" href="#">
+                                      <em class="icon ni ni-setting"></em>
+                                      <span>More Options</span>
+                                  </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </span>
+
                       </span>
                     </header>
                   </div>
@@ -1743,27 +1771,29 @@ Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw 
                     </div>
                   </div>
                   <div class="chat-app-form d-flex">
-                    <div>
-                      <button
-                        type="button"
-                        class="toggle-chat-media btn btn-icon rounded-circle btn-primary"
-                        style="display: none;"
-                      >
-                        <i class="plus feather icon-x"></i>
-                      </button>
-                      <button
-                        type="button"
-                        class="toggle-chat-media btn btn-icon rounded-circle btn-primary"
-                      >
-                        <i class="plus feather icon-plus"></i>
-                      </button>
-                      
-                    </div>
+                    
                     <form
                       class="chat-app-input d-flex container"
                       onsubmit="enter_chat();"
                       action="javascript:void(0);"
                     >
+                      <div>
+                        <button
+                          type="button"
+                          class="toggle-chat-media btn btn-icon rounded-circle btn-primary"
+                          style="display: none;"
+                        >
+                          <i class="plus feather icon-x"></i>
+                        </button>
+                        <button
+                          type="button"
+                          class="toggle-chat-media btn btn-icon rounded-circle btn-primary"
+                        >
+                          <i class="plus feather icon-plus"></i>
+                        </button>
+                      </div>
+
+
                       <div class="inputs container" style="display: none;">
                         <button
                           type="button"
