@@ -1,6 +1,17 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+ul li a.collabseLink{
+    color: #626262 !important;
+}
+
+ul.link-list-opt{
+    padding-left: -50%;
+}
+
+.link-list-opt>li{
+    list-style: none;
+}
 
 /**
    User avatar 
